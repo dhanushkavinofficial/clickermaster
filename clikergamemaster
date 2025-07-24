@@ -1,0 +1,49 @@
+# Ultimate Click Master
+
+![Game Screenshot](https://via.placeholder.com/800x450?text=Ultimate+Click+Master+Gameplay)
+
+A fast-paced, engaging clicker game built with pure HTML, CSS, and JavaScript, powered by GSAP for smooth animations. Test your reflexes and precision as you aim for the highest score!
+
+## ✨ Features
+
+*   **Dynamic Gameplay:** Boxes appear randomly, challenging your reaction time.
+*   **Multiple Box Types:**
+    *   🔵 **Regular Boxes (+1 Point):** Standard targets.
+    *   🟢 **Bonus Circles (+5 Points, +3 Seconds):** High-value targets that extend your playtime.
+    *   🔴 **Penalty Diamonds (-3 Points, -5 Seconds):** Avoid these! They deduct points and precious time.
+*   **Combo System:** Achieve consecutive clicks within a short timeframe to build combos and earn bonus points.
+*   **Missed Click Penalty:** Clicking outside the active game box will cost you points and time, encouraging precision.
+*   **Visual Feedback:** Animated score and time pop-ups provide immediate feedback on your actions.
+*   **Progressive Difficulty:** As your score increases, the game level rises, making boxes move faster and increasing the frequency of challenging penalty boxes.
+*   **High Score Tracking:** Your best score is saved locally in your browser, allowing you to compete against yourself.
+*   **Clean & Professional UI:** A modern, minimalist design with a white background and subtle gradients for a polished look.
+*   **Responsive Design:** Adapts to different screen sizes.
+
+## 🎮 How to Play
+
+1.  **Start the Game:** Click the "Start Game" button on the welcome screen.
+2.  **Click the Boxes:** As boxes appear, click them quickly to earn points.
+3.  **Identify Box Types:**
+    *   Click **Blue Boxes** for standard points.
+    *   Prioritize **Green Circles** for bonus points and extra time.
+    *   **Avoid Red Diamonds** as they will penalize your score and time.
+4.  **Build Combos:** Click rapidly to chain combos and earn additional points.
+5.  **Be Precise:** Clicking anywhere on the screen *outside* the game box will result in a penalty.
+6.  **Survive:** Keep your time above zero to continue playing.
+7.  **Restart:** After the game ends, click "Play Again" to challenge your high score.
+
+## 🛠️ Technologies Used
+
+*   **HTML5:** Structure of the game.
+*   **CSS3:** Styling and visual presentation.
+*   **JavaScript (ES6+):** Game logic and interactivity.
+*   **GSAP (GreenSock Animation Platform):** For smooth, high-performance animations of game elements.
+
+## 🚀 Getting Started
+
+To run this game locally, simply follow these steps:
+
+1.  **Clone the repository (Optional):**
+    ```bash
+    git clone https://github.com/your-username/ultimate-click-master.git
+    cd ultimate-click-master
